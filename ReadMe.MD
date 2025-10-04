@@ -5,6 +5,14 @@
 
 Este projeto foi desenvolvido para o Checkpoint 5 (CP5) da disciplina de Java Avançado. Trata-se de uma API REST para cadastro de produtos, utilizando Spring Boot, JPA e Flyway para controle de versão do banco de dados.
 
+## Como rodar
+Navegue até a pasta do projeto no terminal e rode os comandos:
+
+mvn clean install
+mvn spring-boot:run
+
+depois só acessar: `http://localhost:8080/api/produtos`
+
 ## Endpoints
 
 - `GET /api/produtos` - Lista todos os produtos
