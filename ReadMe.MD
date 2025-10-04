@@ -9,6 +9,7 @@ Este projeto foi desenvolvido para o Checkpoint 5 (CP5) da disciplina de Java Av
 Navegue até a pasta do projeto no terminal e rode os comandos:
 
 mvn clean install
+
 mvn spring-boot:run
 
 depois só acessar: `http://localhost:8080/api/produtos`
